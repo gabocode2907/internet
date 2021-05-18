@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="container"></div>
+    <script type="text/javascript">
+        var arr=["class1","class2","class3"];
+        var x = "";
+        for(var i = 0; i < 3; i++){
+            x = x + '<div class="' + arr[i] +'"></div>';
+        }
+        document.getElementById("container").innerHTML = x;
+    </script>
+</body>
+</html>

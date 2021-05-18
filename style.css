@@ -1,0 +1,26 @@
+.class1{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 5px;
+    border: solid black;
+    display: inline-block;
+}
+
+.class2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 5px;
+    border: solid black;
+    display: inline-block;
+}
+
+.class3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 5px;
+    border: solid black;
+    display: inline-block;
+}
